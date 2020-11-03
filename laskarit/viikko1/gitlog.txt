@@ -1,0 +1,117 @@
+kalevmat@fuxi16:~/ot_viikko1$ git log --stat | cat
+commit 72c2b7e81c4ed5b1eb9b778e0e5ade014a850eef
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:56:15 2020 +0200
+
+    tiedostojen poisto ja uudelleennimeäminen
+
+ tiedostoja/file1.txt  | 0
+ tiedostoja/file2.txt  | 0
+ tiedostoja/file22.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 81d68157344a2716c894770c27d27d28ec78d544
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:51:31 2020 +0200
+
+    hakemisto 'tiedostoja' luotu
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit eb08f0c7b92bc91d710d2558ed222d5d471030f0
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:41:35 2020 +0200
+
+    git add -p käyttö
+
+ eka.txt    | 2 --
+ kolmas.txt | 2 +-
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+
+commit 8b9e1a8560d4356a9be7e993e92186b00b6f50a9
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:39:39 2020 +0200
+
+    tiedoston uudelleennimentä
+
+ eka.txt      | 305 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ tiedosto.txt | 305 -----------------------------------------------------------
+ 2 files changed, 305 insertions(+), 305 deletions(-)
+
+commit 32538cb44b396e13e7ef2709bde3b35897465826
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:37:29 2020 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 0df3e1edb2a44af8ab6e9711c6774b801633d44d
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:35:38 2020 +0200
+
+    osa tiedoston tekstistä poistettu ja lisätty hieman lisää tekstiä
+
+ tiedosto.txt | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+commit 28bd6b9f0eeca4902187242eb201dcc47f34e811
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:31:52 2020 +0200
+
+    paljon tekstiä tiedostoon tiedosto.txt
+
+ tiedosto.txt | 300 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 299 insertions(+), 1 deletion(-)
+
+commit 6ca4f618aea17bd5d02bcc077112738437e4a9e3
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:24:57 2020 +0200
+
+    Hakemisto stuff luotu
+
+ stuff/jokin_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit fe58200cc4ba1ee3cdf0fc61cb11fc7bcfb73d70
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:24:03 2020 +0200
+
+    toisen ja kolmannen tiedoston sisällön muutos
+
+ kolmas.txt | 1 +
+ toinen.txt | 2 ++
+ 2 files changed, 3 insertions(+)
+
+commit 7a5dc08e5b8f1e12f937fe6a54c6daacf4633c1b
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:23:05 2020 +0200
+
+    kolmas tiedosto
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3d77d336f50e0af7b89a3691059a2fd689996872
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:19:04 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 2 ++
+ toinen.txt   | 0
+ 2 files changed, 2 insertions(+)
+
+commit 7f12794dd1178d834a08a0580a44728ac673b723
+Author: MattiKaleva <Matti.kaleva1@gmail.com>
+Date:   Tue Nov 3 10:14:32 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
