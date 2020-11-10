@@ -11,9 +11,9 @@ Yksinkertainen "Tower Defence" tyyppinen, yhden pelaajan peli. Pelaaja rakentaa,
   - Aluevahinko-torni, tekee ammuksillaan vahinkoa jollain isommalla alueella jokaiseen alueella olevaan viholliseen.
   - Hidastustorni, hidastaa tornin ympärillä olevien vihollisia nopeutta.
 - Erilaisia vihollisia.
- - Perusvihollinen.
- - Nopea vihollinen, perusvihollista vähemmän elämäpisteitä.
- - Perusvihollista heikompi pienempi vihollinen, esiintyy isompina laumoina aallossa.
+  - Perusvihollinen.
+  - Nopea vihollinen, perusvihollista vähemmän elämäpisteitä.
+  - Perusvihollista heikompi pienempi vihollinen, esiintyy isompina laumoina aallossa.
 - Kartta, jolla peli pyörii.
   - Kartalla on polku, jota pitkin viholliset kulkevat.
   - Kartalla on paikkoja, joille pelaaja voi asettaa torneja.
