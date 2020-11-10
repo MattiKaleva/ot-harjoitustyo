@@ -9,5 +9,5 @@
 [Testikattavuusraportti](https://github.com/MattiKaleva/ot-harjoitustyo/blob/master/laskarit/viikko2/Testauskattavuus.png)
 
 ## Dokumentaatio
-[Vaatimusmäärittely](https://github.com/MattiKaleva/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[Vaatimusmäärittely](https://github.com/MattiKaleva/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md) \
 [Työaikakirjanpito](https://github.com/MattiKaleva/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
