@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BasicTowerShot.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ot-harjoitustyo</a> &gt; <a href="index.source.html" class="el_package">towers</a> &gt; <span class="el_source">BasicTowerShot.java</span></div><h1>BasicTowerShot.java</h1><pre class="source lang-java linenums">package towers;
+
+import enemies.BasicEnemy;
+import javafx.scene.shape.Polygon;
+import javafx.scene.shape.Shape;
+
+import java.util.ArrayList;
+
+public class BasicTowerShot {
+    private Shape shotModel;
+    private BasicEnemy target;
+
+<span class="fc" id="L13">    public BasicTowerShot(BasicEnemy enemy, int x, int y) {</span>
+<span class="fc" id="L14">        this.shotModel = new Polygon(2, -2, 2, 2, -2, 2, -2, -2);</span>
+<span class="fc" id="L15">        this.shotModel.setTranslateX(x);</span>
+<span class="fc" id="L16">        this.shotModel.setTranslateY(y);</span>
+<span class="fc" id="L17">        this.target = enemy;</span>
+<span class="fc" id="L18">    }</span>
+
+<span class="nc" id="L20">    public Shape getShotModel() { return this.shotModel; }</span>
+
+    public void flyTowardsEnemy() {
+      //  this.shotModel.setTranslateX(this.shotModel.getTranslateX()+1);
+<span class="nc" id="L24">        this.shotModel.setTranslateY(this.shotModel.getTranslateY()-1);</span>
+
+<span class="nc" id="L26">    }</span>
+
+    public boolean collision(BasicEnemy enemy) {
+<span class="fc" id="L29">        Shape impact = Shape.intersect(this.shotModel, enemy.getEnemy());</span>
+<span class="pc bpc" id="L30" title="1 of 2 branches missed.">        return impact.getBoundsInLocal().getWidth() != -1;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>
