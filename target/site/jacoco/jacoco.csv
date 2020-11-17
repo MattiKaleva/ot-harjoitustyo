@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-ot-harjoitustyo,default,Main.new AnimationTimer() {...},82,0,4,0,16,0,6,0,4,0
-ot-harjoitustyo,default,Main,77,0,0,0,21,0,4,0,4,0
-ot-harjoitustyo,scenes,Map,3,0,0,0,1,0,1,0,1,0
-ot-harjoitustyo,enemies,BasicEnemy,0,26,0,0,0,8,0,4,0,4
-ot-harjoitustyo,towers,BasicTower,85,0,2,0,13,0,4,0,3,0
-ot-harjoitustyo,towers,BasicTowerShot,13,70,1,1,3,8,3,2,2,2
