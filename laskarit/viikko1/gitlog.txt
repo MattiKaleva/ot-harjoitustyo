@@ -1,0 +1,115 @@
+C:\Users\Matti\Desktop\ot_viikko1\tiedostoja>git log --stat|cat
+commit f82ae8da258944649217a60a4ec5ae4929309d35
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 23:06:11 2021 +0200
+
+    muutoksia
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ tiedostoja/file3.txt                 | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit a0846521d92893eb9666191b60f54eff6a1f204c
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 23:03:02 2021 +0200
+
+    hakemisto 'tiedostoja' luotu
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 8557bd2676db1d8325d756d146fba63ef4231c92
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:37:13 2021 +0200
+
+    Lisäyksiä ja poistoja
+
+ eka.txt    | 3 ++-
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 2bb0a2bfbc83d9399de0dc835273491423cc46e6
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:35:41 2021 +0200
+
+    tiedosto uudelleennimetty
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 225555c65d38386e9740bcbfb894bf4ccd92783c
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:34:57 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 22e84a39c52d72eaee4afe0d2df355377e0e879b
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:32:43 2021 +0200
+
+    poistettu osa tekstiä ja lisätty hieman tekstiä
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ed2163e0f841ad5d6f79ed9129943dfd192fc872
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:32:05 2021 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 6e6edcf345d596189a9cec35c6c8fa5053ab0d8a
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:15:49 2021 +0200
+
+    stuff kansio luotu
+
+ stuff/jokin_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 92330b8ba45c25d19da489025ec8cddc4d0e1bb5
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:14:24 2021 +0200
+
+    muutos
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit f5918310e4a4baa9077fd9e2e96d5e25124989e9
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:13:38 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 93786fec52b1688d74dd9fd69bd7aac96ca77645
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:11:44 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 984e90f6346d9dc5b344292cd9b51329006c851d
+Author: MattiKaleva <matti.kaleva1@gmail.com>
+Date:   Tue Nov 9 22:10:24 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
