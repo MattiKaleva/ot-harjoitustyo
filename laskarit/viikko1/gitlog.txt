@@ -1,7 +1,7 @@
 C:\Users\Matti\Desktop\ot_viikko1\tiedostoja>git log --stat|cat
 commit f82ae8da258944649217a60a4ec5ae4929309d35
 Author: MattiKaleva <matti.kaleva1@gmail.com>
-Date:   Tue Nov 9 23:06:11 2021 +0200
+Date:   Tue Nov 9 23:06:12 2021 +0200
 
     muutoksia
 
